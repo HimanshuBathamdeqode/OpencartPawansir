@@ -50,7 +50,6 @@ public Properties p;
 		{
 			DesiredCapabilities capabilities=new DesiredCapabilities();
 			
-			//os
 			if(os.equalsIgnoreCase("windows"))
 			{
 				capabilities.setPlatform(Platform.WIN11);
