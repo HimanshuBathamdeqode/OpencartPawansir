@@ -39,7 +39,7 @@ public Properties p;
 	@Parameters({"os","browser"})
 	public void setup(String os, String br) throws IOException
 	{
-		//Loading config.properties file
+		//Loading config.properties fil
 		FileReader file=new FileReader("./src//test//resources//config.properties");
 		p=new Properties();
 		p.load(file);
