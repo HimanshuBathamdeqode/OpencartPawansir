@@ -44,7 +44,7 @@ public Properties p;
 		p=new Properties();
 		p.load(file);
 				
-		logger=LogManager.getLogger(this.getClass());  //lOG4J2
+		logger=LogManager.getLogger(this.getClass()); 
 				
 		if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
 		{
